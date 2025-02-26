@@ -1,0 +1,13 @@
+a=float(input('a='))
+b=float(input('b='))
+c=float(input('c='))
+x=2.5
+while x<=3.5:
+    if x<3:
+        y=3*x*a-2*b
+    elif x==3:
+        y=4*c*b+7*x
+    else:
+        y=2*c-3*x
+    x+=0.1
+    print(x,y)
